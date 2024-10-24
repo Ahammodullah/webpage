@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <div className=" h-full w-full bg-slate-800 bg-cover px-20 py-2 relative">
+    <div className="min-h-screen w-full bg-slate-800 bg-cover px-20 py-2 relative">
       <nav className="flex items-center">
          <p className="text-white p-5 text-2xl">Ahammod</p>
 
