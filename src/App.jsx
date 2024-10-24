@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <div className="container min-h-screen bg-slate-800 bg-center bg-cover px-20 py-2 relative">
+    <div className=" min-h-screen w-full bg-slate-800 bg-center bg-cover px-20 py-2 relative">
       <nav className="flex items-center">
          <p className="text-white p-5 text-2xl">Ahammod</p>
 
@@ -29,7 +29,9 @@ function App() {
         <button className="bg-blue-500 px-5 w-19 h-10  text-white  m-3 rounded-3xl hover:bg-red-400 duration-500">JOIN US<span className="inline-block">&#8594;</span></button>
       </nav>
 
-      <div className="mt-20 "> 
+        <div className='flex justify-between'>
+        <div>
+       <div className="mt-20 "> 
         <h6 className="text-blue-600 mb-5">online traning</h6>
         <h1 className="text-6xl text-white mb-5">Best learning <br></br>Opportunities</h1>
          <p className="text-white mb-5">we know how large objects will act.<br></br> but things on a small scale </p>
@@ -38,9 +40,14 @@ function App() {
           <button  className="bg-blue-500 px-5 w-19 h-10  text-white font-bold m-3 rounded-xl hover:bg-transparent hover:border-blue-500 hover:text-white duration-500 hover:border duration-500">JOIN US</button>
           <button  className="px-5  w-19 h-10  text-blue-500 border border-blue-400 hover:bg-white duration-500">learn More</button>
           </div>
-
       </div>
-      <img src={image1} alt="logo" className="xl:absolute bottom-0 right-20" />
+       </div>
+
+       <div>
+       <img src={image1} alt="logo" className="xl:absolute bottom-0 right-20" />
+       </div>
+        </div>
+       
 
     </div>
 
